@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style-paket.css">
+    <link rel="icon" href="images/logo-bg.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <title>MOZAIK</title>
+</head>
+<body>
+    <div class="header">
+        <nav id="navBar">
+            <img src="images/logo-bg.png" class="logo">
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="paket.html" class="active">Paket Tour</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <a href="#Contact" class="register-btn">Pesan Sekarang</a>
+            <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+        </nav>
+        <div class="container" data-aos="zoom-in" data-aos-duration="1000">
+            <h1>Mozaik Travel</h1>
+            <div class="line"></div>
+            <h2>Spesial Halal Tour</h2>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="about-msg">
+            <div data-aos="zoom-in" data-aos-duration="1000">
+                <h2>"Mozaik merupakan best travel mate buat kamu yang ingin liburan nyaman namun ibadah tetap jalan."</h2>
+            </div>    
+        </div>
+    </div>
+
+    <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="line-2"></div>
+        <h2 class="sub-title">Paket Khusus</h2>
+        <div class="exclusives">
+            <div>
+                <img src="images/image-1.png">
+                <span>
+                    <h3><a href="eropa.html">Eropa</a></h3>
+                </span>
+            </div>
+            <div>
+                <img src="images/image-2.png">
+                <span>
+                    <h3><a href="paris.html">Paris</a></h3>
+                </span>
+            </div>
+            <div>
+                <img src="images/image-3.png">
+                <span>
+                    <h3><a href="newyork.html">New York</a></h3>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" data-aos="fade-up" data-aos-duration="1500">
+        <div class="line-2"></div>
+        <h2 class="sub-title">Paket Kita</h2>
+        <div class="exclusives-2">
+            <div>
+                <img src="images/image-1.png">
+                <span>
+                    <h3><a href="eropa.html">Eropa</a></h3>
+                </span>
+            </div>
+            <div>
+                <img src="images/image-2.png">
+                <span>
+                    <h3><a href="paris.html">Paris</a></h3>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="Contact">
+        <div class="bg-contact">
+            <div class="contactus">
+                <div class="title">
+                    <h2>Kontak yang Berhubungan</h2>
+                </div>
+                <div class="box">
+                    <div class="contact form">
+                        <h3>Kirim Pesan</h3>
+                        <form action="https://formsubmit.co/mozaikbali108@gmail.com" method="POST">
+                            <div class="formbox">
+                                <div class="row50">
+                                    <div class="inputbox">
+                                        <span>First Name</span>
+                                        <input type="text" name="Name" placeholder="first name">
+                                    </div>
+                                    <div class="inputbox">
+                                        <span>Package</span>
+                                        <input list="elements" name="Package" placeholder="Package" id="element">
+                                            <datalist id="elements">
+                                                <option value="Paris"></option>
+                                                <option value="Eropa"></option>
+                                                <option value="New York"></option>
+                                            </datalist>
+                                    </div>
+                                </div>
+    
+                                <div class="row50">
+                                    <div class="inputbox">
+                                        <span>Email</span>
+                                        <input type="email" name="Email" placeholder="email@gmail.com">
+                                    </div>
+                                    <div class="inputbox">
+                                        <span>Phone</span>
+                                        <input type="number" name="Phone" placeholder="+62 12345678">
+                                    </div>
+                                </div>
+                                <div class="row100">
+                                    <div class="inputbox">
+                                        <span>Message</span>
+                                        <textarea name="Message" placeholder="Write Your Message Here"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row100">
+                                    <div class="inputbox">
+                                        <input type="submit" value="Send">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="contact info">
+                        <h3>Info Kontak</h3>
+                        <div class="infobox">
+                            <div>
+                                <span><i class="fa-sharp fa-solid fa-camera-retro"></i></span>
+                                <P>Lorem ipsum dolor sit.<br>lorem</P>
+                            </div>
+                            <div>
+                                <span><i class="fa-sharp fa-solid fa-envelope"></i></span>
+                                <a href="lorem@gmail.com">lorem@gmail.com</a>
+                            </div>
+                            <div>
+                                <span><i class="fa-sharp fa-solid fa-phone"></i></span>
+                                <a href="phone: +62 12345678">+62 12345678</a>
+                            </div>
+                            <ul class="sci">
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="contact map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.714692761251!2d115.17830571449178!3d-8.71861919129894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd246b12e964a75%3A0x6e18a918b4383ac9!2sJl.%20Raya%20Kuta%20No.72%2C%20Kuta%2C%20Kec.%20Kuta%2C%20Kabupaten%20Badung%2C%20Bali%2080361!5e0!3m2!1sid!2sid!4v1669000434179!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="footer-content">
+            <h3>Mozaik Tour & Travel</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <ul class="socials">
+               <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li> 
+               <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+               <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2022 design by <span>GANA IT CONSULTAN</span></p>
+        </div>
+    </footer>   
+    <script>
+        var navBar = document.getElementById("navBar");
+    
+        function togglebtn(){
+            navBar.classList.toggle("hidemenu");
+        }
+
+        var scroll = new SmoothScroll('a[href*="#"]', {
+	        speed: 1500,
+	        speedAsDuration: true
+        });
+    </script> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
